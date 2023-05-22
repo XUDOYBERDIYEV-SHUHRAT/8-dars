@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+.t{
+    text-align: center;
+    color: #575445;
+
+}
+.t1{
+    font-size: 14px;
+    font-weight: 400;
+    color:#E6B939 ;
+    margin-top: 100px;
+}
+
+.t2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.t3{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 538px;
+    margin: auto;
+}
+
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 25px;
+    margin-top: 70px;
+}
+.df .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.df .item .ic{
+    background: url(Frame.png) 50% 50% no-repeat;
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+}
+
+.df .item .text{
+   font-size: 20px;
+   font-weight: 400;
+   margin-top: 9px;
+   margin-bottom: 10px;
+}
+.df .item .text-sm{
+   width: 287px;
+   margin: auto;
+   text-align: center;
+   font-size: 14px;
+}
+
+.footer{
+    background: #575445;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer .logo{
+    background: url(./IMAGE.svg) 50% 50% no-repeat;
+    width: 160px;
+    height: 48px;
+    background-size: contain;
+    margin: auto;
+}
+.footer .flex_f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 75px;
+}
+
+.footer .text-y{
+    color: #E6B939;
+    margin-bottom: 10px;
+}
+.footer .text{
+    /* color: #E6B939; */
+    margin-bottom: 10px;
+}
+.footer .text-sm{
+    max-width: 438px;
+    margin-bottom: 10px;
+}
+.footer input{
+    width: 458px ;
+    padding-left: 21px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    /* padding: 17px 21px ; */
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+}
+
+::placeholder{
+    color: #575445;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.flex .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex .t{
+    color: #fff;
+}
+.flex .ic{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+.flex .icons{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.flex .ic1{
+   background: url(./linked.png) 50% 50% no-repeat;
+}
+.flex .ic2{
+   background: url(./fb.png) 50% 50% no-repeat;
+}
+
+.flex .ic3{
+   background: url(./insta.png) 50% 50% no-repeat;
+}
+.flex .ic4{
+   background: url(./tw.png) 50% 50% no-repeat;
+}
